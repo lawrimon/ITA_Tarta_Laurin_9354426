@@ -34,7 +34,7 @@ if ~exist('dfunc','var')
             return;
         end
         derivateAvailable = false;
-        disp( ["Using this differntiation: ", diffway]);
+        disp( ["Using this way of differentiation: ", diffway]);
 else
     derivateAvailable = true;
     disp(["Use of given derivative ", func2str(dfunc)]);
