@@ -44,7 +44,7 @@ dataForLinearRegression = LinearRegressionDataFormatter('Data','TempearatureMeas
     'Feature','T3','CommandVar','T4');
 
 %% create optimizer object
-gradientDescentOptimizer = GradientDescentOptimizer('LearningRate',9e-6,'MaxIterations',1e6);
+gradientDescentOptimizer = GradientDescentOptimizer('LearningRate',9e-6,'MaxIterations',1.05e7);
 
 %% create lineaer regression model object
 LRMObject = LinearRegressionModel('Data',dataForLinearRegression,'Optimizer',gradientDescentOptimizer);
