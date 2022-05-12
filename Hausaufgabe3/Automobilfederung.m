@@ -24,7 +24,10 @@
 % Other m-files required: none
 % Subfunctions: none
 % MAT-files required: none
-%
+% Author: Patrick Laurin Tarta
+% DHBW Stuttgart
+% email: inf20146@lehre.dhbw-stuttgart.de
+% data: Q2 2022
 
 classdef Automobilfederung < handle
     properties
